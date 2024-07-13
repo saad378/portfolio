@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+             <div class="left">Saad's Portfolio</div>
+             <div class="right"><ul>
+                <li><a href="/">Home  </a>   </li>          
+                 <li><a href="/">About </a> </li>           
+                  <li><a href="/">Services</a></li>             <li><a href="/">Projects </a></li>              
+                  <li><a href="/">Contact Me</a></li>
+             </ul></div>
+        </nav>
+
+    </header>
+    <main> 
+        <section class="firstSection">
+            <div class="leftsection">
+                <div>Hi! My name is </div><span class="meron">Saad</span> <div> and Iam a passionate</div>  
+            <span id="element"></span>
+            <div class="button">
+                <button class="btn1" >Download Resume</button>
+                <button class="btn2"
+                >Visit Github</button>
+            </div>
+        </div>
+            <div class="rightsection"><img src="dev2.png" alt="" srcset="" class="myimg"></div>
+        </section>
+        <hr class="line">
+        <section class="secondSection">
+            <span class="clr1">What I have done so far</span>
+            <h1>Past Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="HtmlLogo.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer 
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi inventore sequi minus sit eius aspernatur, autem, unde accusantium beatae voluptas alias voluptatum nobis?
+                    </div>
+                </div>
+                <div class="vertical"><img src="csslogo.png" alt="" class="image-top">  
+                    <div class="vertical-title">
+                        CSS Developer 
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi inventore sequi minus sit eius aspernatur, autem, unde accusantium beatae voluptas alias voluptatum nobis?
+                    </div>
+                </div>
+                <div class="vertical"><img src="javascriptlogo.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Java-Script Developer 
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi inventore sequi minus sit eius aspernatur, autem, unde accusantium beatae voluptas alias voluptatum nobis?
+                    </div>
+                </div>
+                <div class="vertical"><img src="reactlogo.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        React.Js Developer 
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi inventore sequi minus sit eius aspernatur, autem, unde accusantium beatae voluptas alias voluptatum nobis?
+                    </div>
+                    
+                    
+                </div>
+            </div>
+          
+        </section>
+        <!-- Contact Section Start -->
+			<section id="contact" class="dark_bg section-padding">      
+				<div class="contact-form">
+					<div class="container">
+						<h2 class="section-title wow flipInX" data-wow-delay="0.4s">Contact <span>Us</span></h2>  
+						<style>
+							.center-div {
+							  margin: 0 auto; /* This will center the div horizontally */
+							  max-width: 100%; /* Ensures the div doesn't exceed the width of its container */
+							  /* Add any additional styling you need */
+							}
+						  </style>
+						<div class="row contact-form-area">   												
+							<div class="col-md-12 col-lg-8 col-sm-8 center-div">
+								<div class="contact_form wow fadeInLeft">
+									<form action="contact.php" method="post" id="main_contact_form">
+										<div class="contact_input_area">
+											<div id="success_fail_info"></div>
+											<div class="row">
+												<!-- Form Group -->
+												<div class="col-12">
+													<div class="form-group">
+														<input type="text" name="name" class="form-control" placeholder="Name" required="required">
+													</div>
+												</div>
+												<!-- Form Group -->
+												<div class="col-12 col-lg-6">
+													<div class="form-group">
+														<input type="email" name="email" class="form-control" placeholder="Email" required="required">
+													</div>
+												</div>
+												<!-- Form Group -->
+												<div class="col-12 col-lg-6">
+													<div class="form-group">
+														<input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+													</div>
+												</div>
+												<!-- Form Group -->
+												<div class="col-12">
+													<div class="form-group">
+														<textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
+													</div>
+												</div>
+												<!-- Button -->
+												<div class="col-12 text-center">
+													<button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-secondary ct_btn" title="Submit Your Message!">Send Message</button>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							
+						</div> 
+					</div>
+				</div>   
+			</section>
+		<!-- Contact Section End -->
+    </main>
+    <footer>
+        <div class="footer">
+            <div  class="first"><h3>Saad's Portfolio</h3></div>
+            <div class="second st">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="third st">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="forth st">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>   
+        </div>
+        <div class="footer-rights">
+         Copyright &#169; saad'sportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web-Developer','Web-Designer', 'Seo Expert','Ethical Hacker'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>

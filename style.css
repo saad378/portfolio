@@ -1,0 +1,230 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(4, 4, 46);
+    color: white;
+    font-family: 'Poppins,sans-serif';
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+     height: 150px;
+     font-size: 18px;
+     background-color:rgb(18, 18, 62);
+}
+nav ul{
+    display:  flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white; }
+    nav ul li a:hover{
+    color: rgb(170, 107, 228); }
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.firstSection > div{   
+    width: 33%;
+}
+.leftsection{
+    font-size: 3rem;
+    margin:  86px 0;
+}
+.rightsection{
+    height: 320px;
+    margin: -8px 0;
+}
+.meron{
+    color: rgb(170, 107, 228);
+    
+}
+#element{
+    color: rgb(170, 107, 228);
+
+}
+.secondSection{
+    max-width:80vw ;
+    margin: auto;
+    height: 80vh;
+    
+}
+.line{
+    border:0;
+    background: rgb(170, 107, 228);
+    height: 1px;
+    margin: 100px 64px ;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.clr1{
+    color: rgb(145, 85, 201);
+}
+.secondSection .box{
+    background: white;
+    width: 70vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 90px;
+}
+.image-top{
+    height: 27px; 
+    position: relative;
+    top: -27px;
+    left: -9px;
+
+}
+.vertical-title{
+    position: relative;
+    top: 80px;
+    width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    top: 90px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+footer{
+    background-color: #121223;
+
+}
+.footer{
+    display: flex;
+    
+    padding: 23px  122px;
+    justify-content: space-evenly;
+}
+.st ul li{
+    list-style: none;
+    color: gray; }
+.footer > div{
+    width: 100%;
+
+}
+.footer-rights{
+    text-align: center;
+    color: grey;
+    padding: 12px 0 ;
+    
+}
+.btn1{
+    padding: 12px;
+    background-color:#1e2167 ;
+    border:2px solid white ;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+.btn1:hover{
+    padding: 12px;
+    background-color:white ;
+    border:2px solid rgb(145, 85, 201) ;
+    border-radius: 6px;
+    color: #1e2167;
+    cursor: pointer;
+}
+.btn2{
+    padding: 12px;
+    background-color:#1e2167 ;
+    border:2px solid white ;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+.btn2:hover{
+    padding: 12px;
+    background-color:white ;
+    border:2px solid rgb(145, 85, 201) ;
+    border-radius: 6px;
+    color: #1e2167;
+    cursor: pointer;
+}
+.button{
+padding: 25px 0;
+}
+.myimg{
+width: 80%;
+margin: 4px 0;
+} 
+.first{
+color: gray;
+}
+.left{
+font-size: 35px;
+font-family: "Dancing Script", cursive;}
+.left:hover{
+color: rgb(145, 85, 201);
+cursor: pointer;
+}
+@media screen and (max-width: 1100px) {
+   .firstSection{
+    flex-direction: column-reverse;
+   }
+   
+   .box{
+    flex-direction: column;
+    max-width: 50vw;
+   }
+   .vertical{
+height: unset;   }
+    .vertical-title{
+        left: 45px;
+    }
+    .vertical-desc{
+        left: 45px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .leftsection{
+        display: flex;
+        width:100% !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightsection{
+        margin-top: 35px;
+        width:400px !important ;
+    }
+    .secondSection{
+     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 60vw;
+    }
+    body{
+        min-width: fit-content;
+    }
+    .image-top{
+        top: 108px;
+    }
+    .footer{
+        margin-top: 250px;
+    }
+}
+
